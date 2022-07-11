@@ -1,0 +1,6 @@
+# Additional requirements to compile the docs
+Sphinx>3
+sphinx-autodoc-typehints
+nbsphinx
+recommonmark
+sphinx_rtd_theme

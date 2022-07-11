@@ -1,0 +1,26 @@
+# Model
+torch
+
+# Submodules
+einops
+labml_helpers
+linear_attention_transformer==0.19.1
+git+https://github.com/maxjcohen/vqvae
+
+# Datasets
+torchvision
+matplotlib
+h5py
+Pillow
+gdown
+
+# Training
+pytorch_lightning
+aim
+Plotly
+
+# Misc
+tqdm
+numpy
+pytorch_fid
+juptyerlab
