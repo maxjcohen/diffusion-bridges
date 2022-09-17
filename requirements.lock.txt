@@ -72,7 +72,7 @@ labml-helpers==0.4.88
 linear-attention-transformer==0.19.1
 linformer==0.2.1
 local-attention==1.4.3
-Mako==1.2.1
+Mako==1.2.2
 Markdown==3.3.7
 MarkupSafe==2.1.1
 matplotlib==3.5.2
