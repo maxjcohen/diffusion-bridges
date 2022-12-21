@@ -192,5 +192,5 @@ class LitToyModel(pl.LightningModule):
         plt.plot(time_steps[:, 0].cpu().numpy(), elbo_prior.mean(-1).cpu().numpy())
         plt.close(fig)
         self.logger.experiment.track(
-            aim.Figure(fig), step=self.current_epoch, name="elbo prior"
+            aim.Image(fig), step=self.current_epoch, name="elbo prior"
         )
